@@ -1,0 +1,21 @@
+.App {
+}
+
+.item {
+  padding: 10px;
+  border: solid 2px #eee;
+  margin: 6px;
+}
+
+.item .item-img {
+  width: 160px;
+}
+
+.item .title {
+  font-size: 24px;
+}
+
+.pokemonList {
+  display: flex;
+  flex-wrap: wrap;
+}
