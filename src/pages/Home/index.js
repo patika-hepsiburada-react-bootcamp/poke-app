@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useQuery } from '@apollo/client';
 import { POKEMONS_QUERY } from './queries';
-import Item from './Item';
+import Item from '../../components/Item';
 
 function Pokemons() {
   const { loading, error, data } = useQuery(POKEMONS_QUERY);
