@@ -25,8 +25,6 @@ function Detail() {
     return <Error error={error} />;
   }
 
-  console.log(data);
-
   const { name, image, evolutions } = data.pokemon;
 
   return (
